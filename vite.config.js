@@ -7,6 +7,7 @@ const imagenes = Array.from({ length: 15 }, (_, i) => ({
 }));
 
 export default defineConfig({
+  base: '/gallery/',
   plugins: [
     handlebars({
       partialDirectory: './partials',
