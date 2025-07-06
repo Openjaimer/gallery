@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Galería</title>
+  <link rel="stylesheet" href="/style/galeria.less" />
+</head>
+
+<body>
+  <div class="galeria-container">
+    <h1>Galería Oscura de Imágenes :O </h1>
+    <div class="imagenes">
+      {{#each imagenes}}
+      {{> imagen this}}
+      {{/each}}
+    </div>
+  </div>
+</body>
+
+</html>
